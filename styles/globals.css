@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "AnimalPaw";
+  src: url("/fonts/AnimalPaw.ttf");
+}
+@layer components {
+  
+}
+input[type=text]{
+  @apply block w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg 
+}
+
+input[type=text]:focus{
+  @apply ring-blue-500 border-blue-500
+}
+
+label{
+  @apply block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 
+}
+textarea{
+  @apply block w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg
+}
+textarea:focus{
+  @apply ring-blue-500 border-blue-500
+}

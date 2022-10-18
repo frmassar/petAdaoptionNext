@@ -1,0 +1,21 @@
+task backend: 
+
+OK - make real crud (PUT DELETE)
+OK - remove action params
+OK - create separate function in lib for each endpoint
+
+OK- type & secure each body params & returned data
+
+- add find by user id endpoint
+Ok- fix double res error
+
+task front 
+- make adapter for api and type params
+- use fetcher utils function everywhere
+- use <Link> not router.push() (when possible)
+- put loader everywhere
+- add unprotected route for find a pet
+- add minimal design
+- form validation with ZOD
+
+
